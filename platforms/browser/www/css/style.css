@@ -1,0 +1,80 @@
+/*FONTS*/
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Lalezar/Lalezar-Regular.ttf') format('opentype');
+}
+
+
+.inv {
+  display: none; }
+
+.show {
+  display: block; }
+
+.grey {
+  background-color: #eee; }
+html{
+  height: 100%;
+}
+body {
+  background-color: #212225;
+  border-top: 0.5rem solid #5A82A5;
+  font-family: 'Roboto',sans-serif; }
+
+.taobg{
+  background-image: url(../img/tao.svg?V=3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  color: #BCC4CA;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: 'Lalezar', cursive;
+  font-size: 5rem; }
+
+h3 {
+  color: #fff;
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: 'Lalezar', cursive;
+  color: #5A82A5;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
+
+p {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.5rem; }
+
+.introduction {
+  margin: 2.8rem 1.5rem; }
+
+.lead {
+  text-align: center;
+  font-family: 'Lalezar', sans-serif;
+  font-size: 1.95rem;
+  color: #BCC4CA; }
+
+.affirmation {
+  font-size: 1.85rem;
+  margin: 4.5rem 1rem;
+  color: #BCC4CA; }
+
+.pagination li .a-one {
+  background: #eee; }
